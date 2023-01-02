@@ -1,4 +1,4 @@
-function [count2 thresh] = Ki67_counter(image,thresh)
+function [count thresh] = Ki67_counter(image,thresh)
 %Counts Ki-67 cells in an image. Optimal threshold may need to be adjusted
 %for different equipment. Correction factors (at the bottom of the first script)
 %may also need to be adjusted for different equipment, different
