@@ -33,8 +33,7 @@ b = size(tmp2(tmp2>3),2);
 
 
 %adjustment based on calibration
-count1 = 100*count1/s;
-count2 = 135.5*a/(b);
+count = 135.5*a/(a+b);
 end
 
 
